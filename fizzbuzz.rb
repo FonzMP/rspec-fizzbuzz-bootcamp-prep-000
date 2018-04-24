@@ -1,6 +1,6 @@
 def fizzbuzz(number)
   if (number % 3 == 0) && (number % 5 == 0)
-    return "FizzBuzz"
+    print "FizzBuzz"
   elseif number % 3 == 0
     puts "Fizz"
   elseif number % 5 == 0
