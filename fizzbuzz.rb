@@ -1,5 +1,6 @@
 def fizzbuzz(number)
-  if (number % 3 == 0) && (number % 5 == 0)
+  new_number = number.to_i
+  if number % 3 == 0) && (number % 5 == 0)
     puts "FizzBuzz"
   elsif number % 3 == 0
     puts "Fizz"
